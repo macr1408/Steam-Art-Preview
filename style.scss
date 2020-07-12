@@ -1,0 +1,70 @@
+.preview-avatars-wrapper{
+    height: 100vh;
+    position: absolute;
+    top: 0;
+
+    .sidebar{
+        height: 100%;
+        width: 260px;
+        transition: 0.5s all ease;
+        position: absolute;
+        padding: 20px;
+        background: rgb(34,46,59);
+        background: linear-gradient(45deg, rgba(34,46,59,1) 0%, rgba(2,0,36,1) 100%);
+        border-radius: 0 20px 20px 0;
+
+        .section{
+            .title{
+                color: #bdbdbd;
+                font-family: "Motiva Sans", Sans-serif;
+                font-weight: 200;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .grid{
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                .grid-item{
+                    width: 40%;
+                    height: 100px;
+                    margin-bottom: 20px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+        &.hidden{
+            opacity: 0;
+            left: -100%;
+            z-index: 0;
+        }
+        &.shown{
+            opacity: 1;
+            left: 0;
+            z-index: 999;
+        }
+    }
+
+    > button{
+        padding: 20px 5px;
+        border-radius: 0 10px 10px 0;
+        border: none;
+        background-color: rgba( 104, 157, 221, 0.6 );
+        background-size: 110%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 700;
+        font-size: 110%;
+        position: absolute;
+        top: 200px;
+        left: 0;
+        transition: 0.4s all linear;
+        outline: none;
+
+        &.expanded{
+            left: 300px;
+        }
+    }
+}
