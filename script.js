@@ -13,6 +13,7 @@ class avatarsPreviewSidebar {
                     <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/730/c2a822b6422d7a2c9e72ec74bf54139db8723ef0.png" alt="profile" class="grid-item avatar-frame">
                     <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/730/08763b38c214a554b5e83c5a39a048495b6ecee6.png" alt="profile" class="grid-item avatar-frame">
                     <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/1263950/8472d7295ca91f42faaae0fb9143b2d94bd5b719.png" alt="profile" class="grid-item avatar-frame">
+                    <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/assets/rewardsseason1/goldenprofile/presige_frame_anim.png?v=2" alt="profile" class="grid-item avatar-frame">
                     </div>
                 </div>
             </div>
